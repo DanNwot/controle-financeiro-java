@@ -14,7 +14,7 @@ class Transacao {
 class ControleFinanceiro {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US); // 👈 permite usar ponto decimal
+        sc.useLocale(Locale.US); // permite usar ponto decimal
 
         List<Transacao> lista = new ArrayList<>();
         double saldo = 0;
